@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/zmkfirmware/zmk/main/schema/hardware-metadata.schema.json
+
+file_format: "1"
+id: keaboard
+name: Keaboard
+type: shield
+url: https://github.com/keawade/keaboard/
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - keaboard_left
+  - keaboard_right

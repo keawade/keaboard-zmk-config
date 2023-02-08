@@ -1,0 +1,5 @@
+config SHIELD_KEABOARD_LEFT
+    def_bool $(shields_list_contains,keaboard_left)
+
+config SHIELD_KEABOARD_RIGHT
+    def_bool $(shields_list_contains,keaboard_right)
